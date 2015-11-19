@@ -1,0 +1,18 @@
+﻿<Window x:Class="NewYear2011.Dialog.winSettings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStartupLocation="CenterScreen"
+        Title="Тохиргоо" Height="220" Width="420">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Button Content="Гарах" Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="0,3,12,0" Name="button1" VerticalAlignment="Top" Width="75" Click="button1_Click" />
+        <Button Content="Хадгалах" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="222,3,0,0" Name="button2" VerticalAlignment="Top" Width="75" Click="button2_Click" />
+        <Slider Height="23" Margin="26,38,26,0" Name="sliderSize" x:FieldModifier="public" VerticalAlignment="Top" Minimum="40" Maximum="100" Value="80" />
+        <TextBlock Height="15" HorizontalAlignment="Left" Margin="26,14,0,0" Name="textBlock1" Text="Модны том жижиг" VerticalAlignment="Top" Width="341" />
+        <CheckBox x:FieldModifier="public" Content="Үйлдлийн систем асахад програм автоматаар ажиллах" Height="16" HorizontalAlignment="Left" Margin="26,72,0,0" Name="chStartupOption" VerticalAlignment="Top" Width="338" />
+        <Button Content="Анхны тохиргоог идэвхижүүлэх (Default Settings)" Height="23" HorizontalAlignment="Left" Margin="26,116,0,0" Name="button3" VerticalAlignment="Top" Width="317" Click="button3_Click" />
+        <CheckBox x:FieldModifier="public" Content="Дууг ажиллуулах" Height="16" HorizontalAlignment="Left" Margin="26,94,0,0" Name="isPlaySound" VerticalAlignment="Top" Width="181" />
+    </Grid>
+</Window>
