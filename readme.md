@@ -2,4 +2,4 @@
 
 Суулгаж туршиж үзэх бол доорх холбоосоор орно уу
 
-[Install](www.andromeda.mn/newyear/publish.htm)
+[Install](http://www.andromeda.mn/newyear/publish.htm)
